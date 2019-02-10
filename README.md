@@ -3,7 +3,6 @@ The docker image provide necessary environment to create laravel project if you 
 
 ## How to create a laravel project
 ```
-#!bash
 docker run --rm \
        --name "laravel_create-project" \
        --mount type=bind,source="$(pwd)/[empty-project-folder]",target="/laravel" \
@@ -16,7 +15,6 @@ Change **$(pwd)/[empty-project-folder]** to your project folder.
 
 Change permissions in your project folder accordingly to laravel requirements.
 ```
-#!bash
 sudo chmod -R 0777 $(pwd)/[empty-project-folder]/storage/
 sudo chmod -R 0777 $(pwd)/[empty-project-folder]/bootstrap/cache/
 sudo chmod +x $(pwd)/[empty-project-folder]/artisan   
