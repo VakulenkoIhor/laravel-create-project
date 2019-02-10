@@ -1,7 +1,7 @@
 # Laravel Create Project Container
 The docker image provide necessary environment to create laravel project if you planned to dockerize a web application and you don't want to install php or composer locally.
 
-##How to create a laravel project
+## How to create a laravel project
 ```
 #!bash
 docker run --rm \
@@ -10,9 +10,9 @@ docker run --rm \
        ukrvaku/laravel-create-project:latest \
        composer create-project --prefer-dist laravel/laravel /laravel
 ```
-Change **$(pwd)/[empty-project-folder]** to your project folder
+Change **$(pwd)/[empty-project-folder]** to your project folder.
 
-**Note:** Project folder should exist and empty
+**Note:** Project folder should exist and be empty.
 
 Change permissions in your project folder accordingly to laravel requirements.
 ```
