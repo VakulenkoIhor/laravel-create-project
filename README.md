@@ -1,5 +1,5 @@
 # Laravel Create Project Container
-The docker image provide necessary environment to create laravel project if you planned to dockerize a web application and you don't want to install php or composer locally.
+The docker image provide necessary environment to create laravel project if you planned to dockerize a web application and you don't want to install php or composer locally according to requirements.
 
 ## How to create a laravel project
 ```
